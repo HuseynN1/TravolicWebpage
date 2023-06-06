@@ -1,0 +1,194 @@
+body{
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+/**************First container******************/
+.firstcontainer {
+    width: 100%;
+    margin-top: 156px;
+    position: relative;
+    }
+    /***************first row*********/
+.firstrow{
+    display: flex;
+    gap: 70px;
+    justify-content: space-around;
+}
+
+.first{
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    
+    
+}
+.secondqututext li:first-child{
+    font-style: normal;
+    font-weight:400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #1090CB;
+    }
+.secondqututext li:nth-child(2){
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 68px;
+color: #252525;
+}
+.secondqututext li:last-child{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #868686;
+}
+/******************Second row***************/
+.secondrow{
+    display: flex;
+    justify-content:space-around;
+    z-index:2;
+    position: relative;
+}
+.fives img:first-child{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    right: 0;
+    top: -200px;
+}
+
+.fives img:nth-child(2){
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    bottom: -150px;
+}
+.fives img:last-child{
+    position: absolute;
+   right: 20px;
+   z-index: 1;
+bottom: -80px;
+}
+/*****************SEcond container******/
+.secondcontainer{
+    width: 80%;
+    margin: 220px auto;
+}
+
+.secondcontainer div:first-child{
+    width: 807px;
+    height: 148px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 72px;
+    color: var(--mainColor);
+}
+.secondcontainer div:last-child{
+    color: #585858;
+    width: 1014px;
+    height: 167px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 48px 0;
+}
+
+/********************third container********************/
+
+.thirdcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 812px;
+}
+.thirdrowleftbox{
+    margin-left: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.thirdrowleftbox div:first-child{
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    width: 499px;
+    height: 109px;
+}
+.thirdrowleftbox div:nth-child(2){
+    color:#585858 ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    width: 487px;
+    height: 151px;
+}
+.thirdrowbutton{
+    margin-top: 62px;
+    width: 193px;
+    height: 51px;
+    border: 1px solid var(--mainColor);
+    border-radius: 10px;
+    color: var(--mainColor);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;background: white;
+}
+/*-------------------Right box--------------*/
+.thirdrowrightbox{
+    width: 45%;
+    height: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 2px 84px rgba(0,0,0, 0.2);
+}
+.thirdrowrightboxfirstrow,.thirdrowrightboxsecondrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.thirdrowrightboxsecondrow{
+    margin-left: 10px;
+}
+.thirdrowrightboxfirstrow div,.thirdrowrightboxsecondrow div{
+    position: relative;
+}
+.thirdrowrightboxfirstrow div img:last-child,.thirdrowrightboxsecondrow div img:last-child{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+.thirdrowrightboxfirstrow div p,
+.thirdrowrightboxsecondrow div p{
+    color: #2e0d64;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 44px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

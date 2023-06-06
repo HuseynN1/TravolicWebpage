@@ -1,0 +1,12 @@
+:root {
+    --mainColor: #1090CB;
+    --bgColor: #E5E5E5;
+    --BBoxColor: #E8F4FA;
+    --HBoxColor: rgba(16, 144, 203, 0.1);
+    --mainfont: 'Poppins', sans-serif;
+    --borderColor: #1090CB;
+    --fontColorhead: #5C5C5C;
+    --grey: #868686;
+    --fontColormid:#545454;
+    --blackcolor:#252525;
+}
